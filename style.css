@@ -1,0 +1,443 @@
+@import url('https://fonts.cdnfonts.com/css/ink-free');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ink Free', sans-serif;
+}
+.logo1{
+    width: 300px;
+}
+.navbar-own-style{
+    padding: 0 30px;
+}
+.navbar-nav li a{
+    margin: 0 15px;
+    font-size: 20px;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    background-image: url(image/sajibhossain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 15% bottom 45%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter h3 {
+    color: whitesmoke;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid gray; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke }
+  }
+.hero-social{
+    position: relative;
+    top: 55%;
+}
+.hero-social a{
+    color: whitesmoke;
+    margin: 3px 0px;
+    font-size: 17px;
+}
+.hero-social a:hover{
+    color: green; 
+}
+.hero{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.hero span{
+    color: rgb(210, 164, 0);
+}
+.hero h1{
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+.hero h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.section-p{
+    padding: 200px 0 60px 0; 
+}
+.about-home h3{
+     font-size: 18px;
+     color: rgb(182, 182, 182);
+}
+.about-home h1{
+    font-size: 48px;
+}
+.about-1{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+}
+.animated-bar {
+    background-color: #009e66;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 75px;
+}
+.about-intro{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0 0 30px;
+}
+.introduction{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 30px;
+}
+.box1{
+    grid-column: 1 / -1;
+    height: 100%;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+.box1 h2{
+    font-size: 24px;
+    color: #009e66;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.box1 h1{
+    font-size: 46px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.box1 p{
+    color: rgb(161, 161, 161);
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.box2{
+    grid-column: 1 / -1;
+    height: 100%;
+    color: whitesmoke;
+    padding: 15px 0;
+}
+.box3{
+    grid-column: 1 / -1;
+    height: 100%;
+    color: whitesmoke;
+    padding: 25px 0;
+}
+.col-md-6 span{
+    color: rgb(152, 152, 152);
+    letter-spacing: 1px;
+}
+.col-md-6 p{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.download-cv a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    background-color: #009e66;
+    padding: 8px 20px;
+    border-radius: 30px;
+
+}
+.download-cv a:hover{
+    color: black;
+    background-color: white;
+}
+.a-social a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 5px;
+    font-size: 22px;
+}
+.a-social a:hover{
+    color: #009e66;
+}
+.my-skils{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
+}
+.my-skils h3{
+    font-size: 18px;
+    color: rgb(182, 182, 182);
+}
+.my-skils h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.skill-bar {
+    width: 100%;
+    background-color: rgb(92, 92, 92);
+}
+.skill {
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+}
+.html-css{
+    width: 90%;
+    background-color: #009e66;
+}
+.web-design{
+    width: 85%;
+    background-color: #009e66;
+}
+.javascript{
+    width: 80%;
+    background-color: #009e66;
+}
+.react-js{
+    width: 80%;
+    background-color: #009e66;
+}
+.express-js{
+    width: 85%;
+    background-color: #009e66;
+}
+.typescript{
+    width: 70%;
+    background-color: #009e66;
+}
+.skills-bar{
+    padding: 30px 0;
+    color: whitesmoke;
+}
+.my-skills{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 0 0 0;
+}
+.my-skills p{
+    font-size: 20px;
+}
+.image {
+	position: relative;
+	width: 32%;
+    margin: 5px 2px;
+}
+
+.image__img {
+	display: block;
+	width: 100%;
+}
+
+.image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+    overflow: hidden;
+}
+
+.image__overlay--blur {
+	backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.image__overlay--primary {
+	background: #1a1a1ab1;
+    overflow: hidden;
+    
+}
+
+.image__overlay>* {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+    overflow: hidden;
+}
+
+.image__overlay:hover {
+	opacity: 1;
+    overflow: hidden;
+}
+
+.image__overlay:hover>* {
+	transform: translateY(0);
+    overflow: hidden;
+}
+
+.image__title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.image__description{
+    text-decoration: none;
+    color: #009e66;
+    font-size: 17px;
+    margin-top: 10px;
+	
+}
+.image__description:hover{
+    color: whitesmoke;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.card-blog{
+    border: none;
+    margin: 20px 0;
+    box-shadow: none;
+}
+.blog-section{  
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px 0 0 0;
+}
+.footer-box{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-social{
+    padding: 5px 0;
+}
+.footer-social a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+}
+.footer-social a:hover{
+    color: #009e66;
+    font-size: 18px;
+}
+.footer-menu{
+    padding: 5px 0;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.footer-menu a:hover{
+    color: #009e66;
+}
+.footer-menu1{
+    padding: 5px 0;
+}
+.footer-menu1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.footer-menu1 a:hover{
+    color: #009e66;
+}
+.footer-copyright{
+    color: rgb(167, 166, 166);
+    letter-spacing: 1px;
+}
+.footer-copyright span{
+    font-family: sans-serif;
+}
+
+
+@media (max-width:477px){
+    .hero-section {
+        width: 100%;
+        height: 100vh;
+        margin-top: 10px;
+        background-image: url(image/sajibhossain.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .hero {
+        color: whitesmoke;
+        position: absolute;
+        top: 50%;
+        left: 4%;
+    }
+    .hero-social a{
+        display: none;
+    }
+    .section-p{
+        padding: 60px 0 50px 0; 
+    }
+    .navbar-own-style {
+        padding: 0 0px;
+    }
+   .mobile-img img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-radius: 100%;
+   }
+   .section-mobile{
+    padding: 500px 0 50px 0;
+   }
+   .box1 h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.box3 {
+    grid-column: 1 / -1;
+    height: 100%;
+    color: whitesmoke;
+
+}
+.download-cv a {
+    
+    font-size: 18px;
+    background-color: #009e66;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+.a-social{
+    padding: 30px 0 20px 100px;
+}
+.image {
+    position: relative;
+    width: 48%;
+    margin: 5px 2px;
+}
+
+   
+}
+
+
